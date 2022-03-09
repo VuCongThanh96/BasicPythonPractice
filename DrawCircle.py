@@ -5,7 +5,9 @@ t.circle(50)
 # Đổi màu cho pen
 t.pencolor("blue")
 # Vẽ và tô màu bên trong hình tròn tại 1 điểm tọa độ mới
+t.penup()
 t.goto(150, 100)
+t.pendown()
 turtle.fillcolor("yellow")
 turtle.begin_fill()
 turtle.circle(25)
