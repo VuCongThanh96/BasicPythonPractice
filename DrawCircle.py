@@ -1,18 +1,20 @@
 import turtle
 t = turtle.Turtle()
 # Vẽ 1 hình tròn đơn giản
-t.circle(50)
-# Đổi màu cho pen
-t.pencolor("blue")
+t.circle(75)
+# Đổi màu cho pen và size cho pen
+turtle.pensize(3)
+turtle.pencolor("blue")
 # Vẽ và tô màu bên trong hình tròn tại 1 điểm tọa độ mới
 t.penup()
 t.goto(150, 100)
 t.pendown()
 turtle.fillcolor("yellow")
 turtle.begin_fill()
-turtle.circle(25)
+turtle.circle(30)
 turtle.end_fill()
 # Thay đổi kích thước pen
+t.pencolor("red")
 t.right(90)
 t.forward(250)
 t.pensize(7)
