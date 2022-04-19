@@ -1,0 +1,21 @@
+print("Chương trình viết ra dãy số fibonacci [1;n]]")
+n = int(input('Điền số n: '))
+a = 1
+b = 2
+
+print(a, b, "", end='')
+if n < 2:
+    print("Nhập sai rồi hãy nhập số lớn hơn 2")
+else:
+    while (a + b) <= n:
+        a += b
+        b += a
+        if b < n:
+            print(a, b, "", end='')
+        elif b == n:
+            print(a, b)
+        else:
+            if a > n:
+                break
+            else:
+                print(a)
