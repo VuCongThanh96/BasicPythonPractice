@@ -1,0 +1,6 @@
+#chương trình quy đổi USD->VND
+print("Ứng dụng chuyển đổi USD sang VND")
+USD = float(input("Nhập vào số tiền USD bạn muốn quy đổi: "))
+ER = float(input("Nhập vào tỷ giá quy đổi USD/VND: "))
+a = USD*ER
+print(USD,"quy đổi được ", a, " VND")
